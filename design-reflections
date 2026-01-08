@@ -14,3 +14,7 @@ This reinforced the importance of avoiding resonance in surgical systems.
 ## Control actions
 Derivative action significantly improved vibration suppression.
 PID control improved steady-state accuracy but introduced tuning challenges.
+
+## Next steps
+- Transfer the model to Simulink
+- Compare time-domain responses between MATLAB and Simulink

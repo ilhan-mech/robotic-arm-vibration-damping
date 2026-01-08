@@ -54,8 +54,19 @@ The system dynamics are described by a second-order ordinary differential equati
 
 ```text
 .
-├── main.m          % Main simulation script
-├── model.m         % System parameters and equations of motion
-├── plots.m         % Visualization and plotting functions
-├── results/        % Generated figures and outputs
+robotic-arm-vibration-damping/
+├── matlab/
+│   ├── parameters.m
+│
+├── analysis/
+│   ├── motor_base_response.mlx
+│   ├── motor_with_PD.mlx
+│   └── motor_with_PID.mlx
+│
+├── reflections/
+│   └── design-reflections.md
+│
+├── docs/
+│   └── system_tests_and_reflections_DA.pdf
+│
 └── README.md

@@ -1,0 +1,16 @@
+# Design Reflections
+
+During the simulations, I approached the system as if testing a physical instrument.
+Observations were noted in a laboratory-style manner and later summarized here.
+
+## Damping vs responsiveness
+Increasing damping reduced overshoot and oscillations but also slowed the response.
+This tradeoff became especially clear when comparing free response simulations.
+
+## Frequency sensitivity
+The forced vibration studies showed that system behavior depends strongly on the excitation frequency relative to the natural frequency.
+This reinforced the importance of avoiding resonance in surgical systems.
+
+## Control actions
+Derivative action significantly improved vibration suppression.
+PID control improved steady-state accuracy but introduced tuning challenges.
